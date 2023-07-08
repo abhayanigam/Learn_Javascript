@@ -1,0 +1,53 @@
+<!--
+    Description
+        The removeItem() method removes the specified Storage Object item.
+        The removeItem() method belongs to the Storage Object, 
+        which can be either a localStorage object or a sessionStorrage object.
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Storage removeItem() Method</h1>
+
+<p>This example demonstrates how to use the removeItem() method to delete a specified session storage item.</p>
+
+<h2>Missing sessionStorage item?</h2>
+
+<p>Since you might not have the specified item stored in your session storage, we have added a script that creates it for you.</p>
+
+<button onclick="createItem()">Create session storage item</button>
+
+<h2>Remove Item</h2>
+
+<p>Click the button to delete the item:</p>
+
+<button onclick="deleteItem()">Delete item</button>
+
+<h2>Display Item</h2>
+
+<p>Click the button to display the items's value:</p>
+
+<button onclick="displayItem()">Display item</button>
+
+<p id="demo"></p>
+
+<script>
+
+function createItem() {
+  sessionStorage.setItem("test1", "hello");
+}
+
+function deleteItem() {
+  sessionStorage.removeItem("test1");
+}
+
+function displayItem() {
+  var x = sessionStorage.getItem("test1");
+  document.getElementById("demo").innerHTML = x;
+}
+
+</script>
+</body>
+</html>
