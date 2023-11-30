@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculate(a, b) {
+          const add = a + b;
+          const subtract = a - b;
+          const multiply = a * b;
+          const divide = a / b;
+        
+          return [add, subtract, multiply, divide];
+        }
+        
+        const [add, subtract, multiply, divide] = calculate(4, 7);
+        
+        document.write("<p>Sum: " + add + "</p>");
+        document.write("<p>Difference " + subtract + "</p>");
+        document.write("<p>Product: " + multiply + "</p>");
+        document.write("<p>Quotient " + divide + "</p>");
+
+
+        function renderApp() {
+            document.getElementById("demo").innerHTML = "Welcome!";
+        }
+
+        function renderLogin() {
+            document.getElementById("demo").innerHTML = "Please log in";
+        }
+
+        let authenticated = false;
+
+        authenticated ? renderApp() : renderLogin();
+        <p>Try changing the "authenticated" variable to false, and run the code to see what happens.</p>
+    </script>
+</body>
+</html>

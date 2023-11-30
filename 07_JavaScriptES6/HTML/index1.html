@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <script>
+            class Car {
+                constructor(name) {
+                    this.brand = name;
+                }
+
+                present() {
+                    return 'I have a ' + this.brand;
+                }
+            }
+
+            class Model extends Car {
+                constructor(name, mod) {
+                    super(name);
+                    this.model = mod;
+                }  
+                show() {
+                    return this.present() + ', it is a ' + this.model
+                }
+            }
+
+            const mycar = new Model("Ford", "Mustang");
+            document.write(mycar.show());
+            // const myCar =  new Car("Mustang")
+            document.write(myCar.name)
+            document.write(myCar.present())
+            document.write(myCar.show())
+        </script>
+    </body>
+</html>
