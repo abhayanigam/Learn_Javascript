@@ -3,14 +3,14 @@
 // Example 1:
 let vidhyaarti = [
   ["Abhaya", 24],
-  ["Vedanshi", 23],
+  ["Vedansh", 23],
   ["Nigam", 24],
 ];
 console.log(vidhyaarti);
 
 // Example 2:
 let student1 = ["Abhaya", 24];
-let student2 = ["Vedanshi", 23];
+let student2 = ["Vedansh", 23];
 let student3 = ["Nigam", 24];
 
 // multidimensional array
@@ -18,7 +18,7 @@ let vidhyaarti1 = [student1, student2, student3];
 console.log(vidhyaarti1);
 
 //Access Elements of an Array
-console.log(vidhyaarti[1]); // ['Vedanshi', 24]
+console.log(vidhyaarti[1]); // ['Vedansh', 24]
 console.log(vidhyaarti[0][0]); // 'Abhaya'
 console.log(vidhyaarti[2][1]); // 24)
 

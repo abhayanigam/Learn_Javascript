@@ -8,7 +8,7 @@
 
 // before ES6:
 const person = {
-  name: "Vedanshi",
+  name: "Vedansh",
   age: 25,
   gender: "female",
 };
@@ -17,7 +17,7 @@ let name1 = person.name;
 let age1 = person.age;
 let gender1 = person.gender;
 
-console.log(name1); // Vedanshi
+console.log(name1); // Vedansh
 console.log(age1); // 25
 console.log(gender1); // female
 
@@ -25,7 +25,7 @@ console.log(gender1); // female
 // destructuring assignment
 let { name, age, gender } = person;
 
-console.log(name); // Vedanshi
+console.log(name); // Vedansh
 console.log(age); // 25
 console.log(gender); // female
 
@@ -33,7 +33,7 @@ console.log(gender); // female
 // using different variable names
 let { name: name2, age: age2, gender: gender2 } = person;
 
-console.log(name2); // Vedanshi
+console.log(name2); // Vedansh
 console.log(age2); // 25
 console.log(gender2); // female
 

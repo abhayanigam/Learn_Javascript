@@ -25,7 +25,11 @@ class Person {
    * Note: The constructor() method inside a class gets called automatically each
    * time an object is created.
    */
-  constructor(name) {
+  // constructor(name) {
+  //   this.name = name;
+  // }
+
+  Person(name) {
     this.name = name;
   }
 
@@ -47,10 +51,10 @@ class Person {
 }
 // creating an object
 const person1 = new Person("Abhaya");
-const person2 = new Person("Vedanshi");
+const person2 = new Person("Vedansh");
 
 console.log(person1.name); // Abhaya
-console.log(person2.name); // Vedanshi
+console.log(person2.name); // Vedansh
 
 person1.greet();
 

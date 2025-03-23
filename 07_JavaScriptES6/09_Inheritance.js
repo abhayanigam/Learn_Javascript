@@ -39,7 +39,7 @@ class Student extends Person {
 let student1 = new Student("Abhaya");
 student1.greet();
 
-let p = new Student("Vedanshi");
+let p = new Student("Vedansh");
 p.greet();
 
 /**

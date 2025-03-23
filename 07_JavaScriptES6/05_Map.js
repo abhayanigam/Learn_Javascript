@@ -83,9 +83,9 @@ for (let elem of map2.entries()) {
 
 /*
     JavaScript Map vs Object
-            Map:	                                                          |        Object:
-        1. Maps can contain objects and other data types as keys.	          |  1. Objects can only contain strings and symbols as keys.
-        2. Maps can be directly iterated and their value can be accessed.	  |  2. Objects can be iterated by accessing its keys.
+            Map:	                                                            |        Object:
+        1. Maps can contain objects and other data types as keys.	            |  1. Objects can only contain strings and symbols as keys.
+        2. Maps can be directly iterated and their value can be accessed.	    |  2. Objects can be iterated by accessing its keys.
         3. The number of elements of a Map can be determined by size property.|  3. The number of elements of an object needs to be determined manually.
         4. Map performs better for programs that require the addition or      |  4. Object does not perform well if the program requires the addition or
             removal of elements frequently.                                   |      removal of elements frequently.

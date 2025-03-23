@@ -10,7 +10,7 @@
  */
 
 // array
-const students = ["Abhaya", "Vedanshi"];
+const students = ["Abhaya", "Vedansh"];
 
 // using for...of
 for (let element of students) {
@@ -66,7 +66,7 @@ for (let value of obj) {
 }
 
 /*
-                                                                for...of Vs for...in
+    for...of Vs for...in
                             for...of:	                                                               for...in:
     1. The for...of loop is used to iterate through the values of an iterable.	|   1. The for...in loop is used to iterate through the keys of an object.
     2. The for...of loop cannot be used to iterate over an object.	            |   2. You can use for...in to iterate over an iterable such arrays and strings 

@@ -1,6 +1,6 @@
 /**
  * Spread Operator
-T   he spread operator ... is used to expand or spread an iterable or an array.
+ *      The spread operator ... is used to expand or spread an iterable or an array.
  */
 
 const arrValue = ["My", "name", "is", "Abhaya"];

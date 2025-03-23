@@ -21,7 +21,7 @@
 // Getter
 const student = {
   // data property
-  firstName: "Vedanshi",
+  firstName: "Vedansh",
 
   // accessor property(getter)
   get getName() {
@@ -31,19 +31,19 @@ const student = {
 console.log(student.firstName);
 
 // accessing getter methods
-console.log(student.getName); // Veadanshi
+console.log(student.getName); // Vedansh
 // console.log(student.getName()); // error
 
 // Setter
 const student1 = {
-  firstName: "Vedanshi",
+  firstName: "Vedansh",
   //accessor property(setter)
   set changeName(newName) {
     this.firstName = newName;
   },
 };
 
-console.log(student1.firstName); // vedanshi
+console.log(student1.firstName); // Vedansh
 student1.changeName = "Shukla";
 
 console.log(student1.firstName); // Shukla
@@ -53,7 +53,7 @@ console.log(student1.firstName); // Shukla
 // to add getters and setters.
 
 const student2 = {
-  firstName: "Veadanshi",
+  firstName: "Vedansh",
 };
 
 // getting property
@@ -70,7 +70,7 @@ Object.defineProperty(student2, "changeName", {
   },
 });
 
-console.log(student2.firstName); // Vedanshi
+console.log(student2.firstName); // Vedansh
 
 // changing the property value
 student2.changeName = "Shukla";
