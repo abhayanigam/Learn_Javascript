@@ -122,3 +122,10 @@ console.log(weakMap); // WeakMap {}
 for (let i of weakMap) {
   console.log(i); // TypeError
 }
+
+/*
+  WeakMap does not allow you to iterate over its keys or values using a for...of loop.
+
+  This is because WeakMap is designed to be more memory-efficient, and exposing an iterator
+  would prevent garbage collection from cleaning up the keys when they are no longer referenced elsewhere.
+*/
